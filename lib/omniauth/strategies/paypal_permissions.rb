@@ -111,6 +111,7 @@ module OmniAuth
           identity
         else
           fail!(:invalid_credentials, response.error.first)
+          {}
         end
       end
 
